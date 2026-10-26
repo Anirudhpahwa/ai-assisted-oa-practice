@@ -30,7 +30,7 @@ Solutions live in a separate repo so they don't show up while you practice: [ai-
    ```
    All tests should fail at first.
 4. **Start a 60-minute timer.** Read the mock's `README.md` first, then the tests.
-5. **Use an AI assistant in your editor** (Claude Code, Copilot Chat, Cursor or similar). Tell it: "Read the files in this repo." It will find `AI_ASSISTANT_RULES.md` and act as a read-only assessment assistant that points you at likely problems but never edits your code.
+5. **Use an AI assistant in your editor** (Claude Code, Copilot Chat, Cursor, Codex, Gemini or similar) with the mock folder open. **Your first message to it must be: "Read AI_ASSISTANT_RULES.md and follow it."** That file makes the assistant act as a read-only assessment helper that points you at likely problems but never edits your code. Do this before asking anything else.
 6. **Make every edit yourself.** Don't run the frontend. It is there for reference only.
 7. When the timer ends or all tests pass, check your fixes against the solutions repo.
 
