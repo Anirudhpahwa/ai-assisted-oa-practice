@@ -1,7 +1,5 @@
 # AI-Assisted OA Practice
 
-<p align="center"><img src="docs/images/cover.jpg" alt="AI-assisted OA Practice: four free mock repos to debug with an AI assistant" width="100%"></p>
-
 Practice mocks for **AI-assisted coding online assessments** (also called AI-assisted repository debugging tasks). In this format you get an unfamiliar full-stack repo with failing tests and an AI assistant in the editor. You have about 60 minutes to find the bugs and make the tests pass.
 
 This kind of round is reported by candidates for software engineering internship and new-grad roles at large tech companies such as Amazon and Microsoft. These mocks are original practice material inspired by the general format. They are not affiliated with or endorsed by any company, and they contain no real assessment content.
