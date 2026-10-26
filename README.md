@@ -1,3 +1,8 @@
+<p align="center">
+  <img width="49%" src="docs/images/how-it-works.png" alt="How it works: inspect the codebase, debug with an AI assistant, implement the fixes yourself, run the tests">
+  <img width="49%" src="docs/images/workspace.png" alt="Editor with the mock open, six failing tests in the terminal, and an AI assistant that has just read the rules file">
+</p>
+
 # AI-Assisted OA Practice
 
 Practice mocks for **AI-assisted coding online assessments** (also called AI-assisted repository debugging tasks). In this format you get an unfamiliar full-stack repo with failing tests and an AI assistant in the editor. You have about 60 minutes to find the bugs and make the tests pass.
@@ -5,10 +10,6 @@ Practice mocks for **AI-assisted coding online assessments** (also called AI-ass
 This kind of round is reported by candidates for software engineering internship and new-grad roles at large tech companies such as Amazon and Microsoft. These mocks are original practice material inspired by the general format. They are not affiliated with or endorsed by any company, and they contain no real assessment content.
 
 Each mock is a small React + Django app. The bugs are all in the Django backend. Every test fails when you start.
-
-## How it works
-
-<img src="docs/images/how-it-works.png" alt="Four steps: inspect the codebase, debug with an AI assistant, implement the fixes yourself, run the tests" width="100%">
 
 ## Mocks
 
@@ -39,10 +40,6 @@ Solutions live in a separate repo so they don't show up while you practice: [ai-
 7. When the timer ends or all tests pass, check your fixes against the solutions repo.
 
 About 10 minutes per test is a good pace for a 6-test mock.
-
-What your editor can look like at the start (illustration: failing tests on the left, your AI assistant on the right):
-
-<img src="docs/images/workspace.png" alt="Editor with the mock open, six failing tests in the terminal, and an AI assistant that has just read the rules file" width="100%">
 
 ## Contributing
 
