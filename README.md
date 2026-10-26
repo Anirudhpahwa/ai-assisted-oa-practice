@@ -13,6 +13,7 @@ Each mock is a small React + Django app. The bugs are all in the Django backend.
 | [mock-01-returns-desk](mock-01-returns-desk) | Returns desk: returns, items, status workflow | 6 | React + Django + pytest | [zip](https://github.com/Anirudhpahwa/ai-assisted-oa-practice/releases/latest/download/mock-01-returns-desk.zip) |
 | [mock-02-leave-desk](mock-02-leave-desk) | Leave desk: time-off requests, balances, approvals | 6 | React + Django + pytest | [zip](https://github.com/Anirudhpahwa/ai-assisted-oa-practice/releases/latest/download/mock-02-leave-desk.zip) |
 | [mock-03-stock-count-desk](mock-03-stock-count-desk) | Stock count desk: cycle count sessions, counted lines, approval, shortage report | 6 | React + Django + pytest | [zip](https://github.com/Anirudhpahwa/ai-assisted-oa-practice/releases/latest/download/mock-03-stock-count-desk.zip) |
+| [mock-04-help-desk](mock-04-help-desk) | Help desk: support tickets, SLA deadlines, comments, history | 6 | React + Django + pytest | [zip](https://github.com/Anirudhpahwa/ai-assisted-oa-practice/releases/latest/download/mock-04-help-desk.zip) |
 
 Solutions live in a separate repo so they don't show up while you practice: [ai-assisted-oa-practice-solutions](https://github.com/Anirudhpahwa/ai-assisted-oa-practice-solutions). Open them only after you finish.
 
