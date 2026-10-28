@@ -1,0 +1,5 @@
+shift_id,date,start,end,role
+sh1,2026-03-02,08:00,16:00,cashier
+sh2,2026-03-03,08:00,16:00,cashier
+sh3,2026-03-02,06:00,14:00,stock
+sh4,2026-03-02,12:00,20:00,cashier

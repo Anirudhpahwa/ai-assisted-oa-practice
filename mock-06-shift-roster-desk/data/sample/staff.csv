@@ -1,0 +1,4 @@
+staff_id,name,role,max_weekly_minutes,hourly_rate_cents
+s1,Ana Lopez,cashier,2400,2000
+s2,Ben Okafor,cashier,1200,1800
+s3,Cy Varga,stock,2400,1700
