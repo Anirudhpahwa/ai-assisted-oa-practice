@@ -21,6 +21,7 @@ Each mock is a small React + Django app. The bugs are all in the Django backend.
 | [mock-04-help-desk](mock-04-help-desk) | Help desk: support tickets, SLA deadlines, comments, history | 6 | React + Django + pytest | [zip](https://github.com/Anirudhpahwa/ai-assisted-oa-practice/releases/latest/download/mock-04-help-desk.zip) |
 | [mock-05-equipment-loan-desk](mock-05-equipment-loan-desk) | Equipment loan desk: loans, availability, late fees, extensions, borrower summary | 6 | React + Django + pytest | [zip](https://github.com/Anirudhpahwa/ai-assisted-oa-practice/releases/latest/download/mock-05-equipment-loan-desk.zip) |
 | [mock-06-shift-roster-desk](mock-06-shift-roster-desk) | Shift roster desk: shift requests, rest and weekly limits, overtime pay, summary | 6 | C++17 (g++) | [zip](https://github.com/Anirudhpahwa/ai-assisted-oa-practice/releases/latest/download/mock-06-shift-roster-desk.zip) |
+| [mock-07-event-signup-desk](mock-07-event-signup-desk) | Event sign-up desk: events, registrations with guests, waitlist promotion, organizer summary | 6 | React + Node.js (Express, Mongoose) + Jest | [zip](https://github.com/Anirudhpahwa/ai-assisted-oa-practice/releases/latest/download/mock-07-event-signup-desk.zip) |
 
 Solutions live in a separate repo so they don't show up while you practice: [ai-assisted-oa-practice-solutions](https://github.com/Anirudhpahwa/ai-assisted-oa-practice-solutions). Open them only after you finish.
 
