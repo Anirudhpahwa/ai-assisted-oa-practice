@@ -9,7 +9,7 @@ Practice mocks for **AI-assisted coding online assessments** (also called AI-ass
 
 This kind of round is reported by candidates for software engineering internship and new-grad roles at large tech companies such as Amazon and Microsoft. These mocks are original practice material inspired by the general format. They are not affiliated with or endorsed by any company, and they contain no real assessment content.
 
-Each mock is a small app in one stack (Django, Node.js or C++). The bugs are in the backend or core code, never in the frontend. Every test fails when you start.
+Each mock is a small app in one stack (Django, Node.js, C++ or Spring Boot). The bugs are in the backend or core code, never in the frontend. Every test fails when you start.
 
 ## Mocks
 
@@ -22,6 +22,7 @@ Each mock is a small app in one stack (Django, Node.js or C++). The bugs are in 
 | [mock-05-equipment-loan-desk](mock-05-equipment-loan-desk) | Equipment loan desk: loans, availability, late fees, extensions, borrower summary | 6 | Django | [zip](https://github.com/Anirudhpahwa/ai-assisted-oa-practice/releases/latest/download/mock-05-equipment-loan-desk.zip) |
 | [mock-06-shift-roster-desk](mock-06-shift-roster-desk) | Shift roster desk: shift requests, rest and weekly limits, overtime pay, summary | 6 | C++ | [zip](https://github.com/Anirudhpahwa/ai-assisted-oa-practice/releases/latest/download/mock-06-shift-roster-desk.zip) |
 | [mock-07-event-signup-desk](mock-07-event-signup-desk) | Event sign-up desk: events, registrations with guests, waitlist promotion, organizer summary | 6 | Node.js | [zip](https://github.com/Anirudhpahwa/ai-assisted-oa-practice/releases/latest/download/mock-07-event-signup-desk.zip) |
+| [mock-08-work-order-desk](mock-08-work-order-desk) | Work order desk: work orders, search and filters, role rules, status workflow, parts used, history | 6 | Spring Boot | [zip](https://github.com/Anirudhpahwa/ai-assisted-oa-practice/releases/latest/download/mock-08-work-order-desk.zip) |
 
 Solutions live in a separate repo so they don't show up while you practice: [ai-assisted-oa-practice-solutions](https://github.com/Anirudhpahwa/ai-assisted-oa-practice-solutions). Open them only after you finish.
 
@@ -65,6 +66,17 @@ npm test
 No venv is needed; packages go into `node_modules` in the mock folder. The first `npm test` downloads a MongoDB binary (about 100 MB) for the in-memory test database, so you need an internet connection and a minute. You do not need to install or run MongoDB yourself. Do not run `npm start`.
 
 To run one test: `npx jest -t "create event"` (use any test name).
+</details>
+
+<details>
+<summary><b>Spring Boot</b> (mock 8): needs JDK 17 or newer</summary>
+
+```
+mvnw.cmd test        (Windows)
+sh mvnw test         (macOS / Linux)
+```
+
+Maven is included through the wrapper (`mvnw`), so you only need a JDK; check it with `java -version`. The first run downloads Maven and the libraries, so you need an internet connection and a minute. Nothing else to install or start; the tests use an in-memory database.
 </details>
 
 <details>
