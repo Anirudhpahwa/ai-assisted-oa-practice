@@ -23,6 +23,7 @@ Each mock is a small app in one stack (Django, Node.js, C++ or Spring Boot). The
 | [mock-06-shift-roster-desk](mock-06-shift-roster-desk) | Shift roster desk: shift requests, rest and weekly limits, overtime pay, summary | 6 | C++ | [zip](https://github.com/Anirudhpahwa/ai-assisted-oa-practice/releases/latest/download/mock-06-shift-roster-desk.zip) |
 | [mock-07-event-signup-desk](mock-07-event-signup-desk) | Event sign-up desk: events, registrations with guests, waitlist promotion, organizer summary | 6 | Node.js | [zip](https://github.com/Anirudhpahwa/ai-assisted-oa-practice/releases/latest/download/mock-07-event-signup-desk.zip) |
 | [mock-08-work-order-desk](mock-08-work-order-desk) | Work order desk: work orders, search and filters, role rules, status workflow, parts used, history | 6 | Spring Boot | [zip](https://github.com/Anirudhpahwa/ai-assisted-oa-practice/releases/latest/download/mock-08-work-order-desk.zip) |
+| [mock-09-room-booking-desk](mock-09-room-booking-desk) | Room booking desk: bookings with overlap checks, idempotent create, cancellation fees, availability, monthly report | 6 | Spring Boot | [zip](https://github.com/Anirudhpahwa/ai-assisted-oa-practice/releases/latest/download/mock-09-room-booking-desk.zip) |
 
 Solutions live in a separate repo so they don't show up while you practice: [ai-assisted-oa-practice-solutions](https://github.com/Anirudhpahwa/ai-assisted-oa-practice-solutions). Open them only after you finish.
 
@@ -69,7 +70,7 @@ To run one test: `npx jest -t "create event"` (use any test name).
 </details>
 
 <details>
-<summary><b>Spring Boot</b> (mock 8): needs JDK 17 or newer</summary>
+<summary><b>Spring Boot</b> (mocks 8 and 9): needs JDK 17 or newer</summary>
 
 ```
 mvnw.cmd test        (Windows)
