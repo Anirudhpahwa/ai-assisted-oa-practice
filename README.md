@@ -33,7 +33,7 @@ Solutions live in a separate repo so they don't show up while you practice: [ai-
 2. **Open that mock's folder in VS Code** (File, then Open Folder). Open the mock folder itself, not the repo root.
 3. **Install and run the tests** from inside that mock folder, using the steps for its stack in [Set up by stack](#set-up-by-stack) below. All tests should fail at first.
 4. **Start a 60-minute timer.** Read the mock's `README.md` first, then the tests.
-5. **Use an AI assistant in your editor** (Claude Code, Copilot Chat, Cursor, Codex, Gemini or similar) with the mock folder open. **Your first message to it must be: "Read AI_ASSISTANT_RULES.md and follow it."** That file makes the assistant act as a read-only assessment helper that points you at likely problems but never edits your code. Do this before asking anything else.
+5. **Use an AI assistant in your editor** (Claude Code, Copilot Chat, Cursor, Codex, Gemini or similar) with the mock folder open. **Your first message to it must be: "Read AI_ASSISTANT_RULES.md and follow it."** That file makes the assistant act as a read-only assessment helper: it points you to likely problems by file and line, keeps its answers short, doesn't teach or explain concepts, and never edits your code. Do this before asking anything else. If your tool suggests follow-up prompts, ignore them or turn them off, since they can hint at what to work on next.
 6. **Make every edit yourself.** If the mock has a `frontend/` folder, don't run it. It is there for reference only.
 7. When the timer ends or all tests pass, check your fixes against the solutions repo.
 
